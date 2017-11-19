@@ -1,0 +1,83 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+.commentBlock {
+    width: 90%;
+    height: auto;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,.2), 0 3px 4px 0 rgba(0,0,0,.14), 0 3px 3px -2px rgba(0,0,0,.12);
+    padding: 15px;
+    margin: 20px auto;
+}
+.commentBlock .authorInfo img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.userInfo {
+    display: inline-block;
+}
+.userInfo p {
+    margin: 0 3px;
+}
+.authorInfo img {
+    display: inline-block;
+    margin-top: -20px;
+}
+.commentFooter {
+    position: relative;
+    min-height: 30px;
+}
+.userAction {
+    position: absolute;
+    right: 0;
+}
+.commentBody {
+    padding: 20px 0;
+}
+.float-right {
+    font-weight: 100;
+    font-size: 12px;
+    color: #999;
+}
+.userAction a {
+    color: #444;
+    font-size: 12px;
+}
+.userAction a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.userAction span {
+    margin-left: 20px;
+}
+.userName {
+    font-weight: 600;
+    font-size: 18px;
+}
+.userTitle {
+    font-weight: 100;
+    font-size: 14px;
+    color: #999;
+}
+.formContainer {
+    background-color: #dbdbdb;
+    height: 100vh;
+    padding: 10%;
+}
+/* .commentBlock1 {
+    position: relative;
+    width: 40%;
+    min-height: 100px;
+    border: 1px solid #333;
+    top: 20px;
+}
+.commentBlock1 .header-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.commentBlock1 .header-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+} */
